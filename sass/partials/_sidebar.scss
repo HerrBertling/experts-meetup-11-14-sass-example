@@ -1,0 +1,14 @@
+.sidebar {
+  background-color: $jimdo-color;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  float: right;
+  padding: 20px;
+  width: 300px;
+
+  h3 {
+    font-size: 1.5em;
+    margin: 0 0 0.5em;
+  }  
+}
