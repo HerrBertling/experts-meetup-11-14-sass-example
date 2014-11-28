@@ -1,0 +1,23 @@
+.content {
+  box-sizing: border-box;
+  color: #333;
+  float: left;
+  padding: 20px;
+  width: 600px;
+
+  h1 {
+    color: $jimdo-color;
+    font-size: 3em;
+    margin: 0 0 0.5em;
+  }
+
+  a:link,
+  a:visited {
+    color: $jimdo-color;
+    text-decoration: none;
+  }
+  a:hover {
+    color: darken($jimdo-color, 20%);
+  }
+
+}
